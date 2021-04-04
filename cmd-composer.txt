@@ -1,0 +1,15 @@
+composer init,
+composer require pacote desejado
+composer install
+composer update
+
+//PSR-4 Padrão autoload
+composer dump-autoload
+composer dumpautoload
+
+composer list
+composer require --dev pacote desejado
+
+ferramenta util
+phpcs //verifica se está no padrao de codigo PHP
+phan //verifica se há erros
