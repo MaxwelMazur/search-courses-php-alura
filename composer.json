@@ -42,5 +42,6 @@
     },
     "scripts-descriptions": {
         "check": "Roda as ferramentas do código. PHAN, PHPCS e PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0"
 }

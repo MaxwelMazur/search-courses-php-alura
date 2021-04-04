@@ -13,3 +13,15 @@ composer require --dev pacote desejado
 ferramenta util
 phpcs //verifica se está no padrao de codigo PHP
 phan //verifica se há erros
+
+//git
+echo "# busca-cursos-php-alura" >> README.md
+git init -q
+git status
+git add .
+git commit -m "lista cursos php da alura"
+git branch -M main
+git tag -a v1.0.0
+git remote add origin https://github.com/MaxwelMazur/busca-cursos-php-alura.git
+git push -u origin main
+git push origin v1.0.0
